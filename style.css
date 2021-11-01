@@ -16,6 +16,11 @@
     padding-top: 1rem ;
     padding-left: 1rem ;
     padding-right:1rem ;
+    position: fixed;
+    top: 0; 
+    background: #000;
+    opacity: 0.9;
+    width: 96%;
 }
 .logo{
     color: rgb(144, 228, 20);
@@ -43,4 +48,68 @@ a:hover{
     justify-content: center;
     align-items: center;
     font-size: 3rem;
+}
+#section{
+    background-color: rgba(0, 0, 0, 0.774);
+    height: 90vh;
+
+}
+h3{
+    color: rgb(140, 218, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2rem .7rem;
+    font-size: 1.7rem ;
+}
+.bikes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: .5rem;
+}
+.card{
+ /* background-color: #f4f4f4; */
+ margin: .4rem;
+}
+.card img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+.card button{
+    color: #fff;
+    width: 5rem;
+    padding: .2rem;
+    font-size:.7rem ;
+    background-color: rgb(140, 218, 24);
+    border: none;
+    position: relative;
+    left: 2rem;
+    border-radius: 8px;
+    margin: .6rem;
+}
+
+.card button:hover{
+ cursor: grab;
+ background-color: rgba(0, 0, 0, 0.836);
+ transition: 1s ease-in;
+ font-size: .8rem;
+}
+
+#contact{
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+.fab{
+    padding: 1rem;
+}
+.fab:hover{
+   color:rgb(140, 218, 24) ;
 }
